@@ -9,6 +9,7 @@ import { ServicesComponent } from './services/services.component';
 import { ContactmeComponent } from './contactme/contactme.component';
 
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
     AboutmeComponent,
     ProjectsComponent,
     ServicesComponent,
-    ContactmeComponent
+    ContactmeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
