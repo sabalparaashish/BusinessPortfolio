@@ -18,7 +18,7 @@ export class AppComponent {
     this._router.events.subscribe((event: Event) => {
       this.navigationInterceptor(event);
     });
-  this._router.navigate(['home']);
+  //this._router.navigate(['home']);
 }
 private navigationInterceptor(event: Event): void {
     if (event instanceof NavigationStart) {
